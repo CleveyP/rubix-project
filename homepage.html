@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css"></link>
+    <script src="jquery.js" async></script>
+    <script src="javascript.js" defer></script>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Cleveland Plonsey">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUBIX ENGINE</title>
+</head>
+
+<body>
+<header>
+<h1>WELCOME TO THE RUBIX ENGINE</h1>
+<p>Where rubix cube enthusiasts come to tty out new patterns!</p>
+</header>
+<main>
+
+<!--The grid whihc is the rubix-->
+
+<section class="grid">
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+</section>
+
+<!--the user form-->
+
+<section id="form-section">
+    <h2>Make a Pattern</h2>
+    <form action="" method = "GET" id="the-form">
+        <label for="color-1">Choose a first color</label>
+        <select name="color-1" id="color-1" required>
+            <option value="yellow">Yellow</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+            <option value="orange">Orange</option>
+            <option value="white">White</option>
+            <option value="gray">Gray</option>
+        </select>
+       
+        <label for="color-2">Choose a second color</label>
+        <select name="color-2" id="color-2" required>
+            <option value="yellow">Yellow</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+            <option value="orange">Orange</option>
+            <option value="white">White</option>
+            <option value="gray">Gray</option>
+        </select>
+        
+
+        <input type="radio" name="pattern" id="X" value="X">
+        <label for="X">Pattern X</label>
+
+        <input type="radio" name="pattern" checked="checked" id="III" value="III">
+        <label for="III">Pattern III</label>
+        <div id="button-container">
+        <input type="radio" name="pattern" id="E" value="E">
+        <label for="E">Pattern E</label>
+        <button id="submit-button">submit</button>
+        </div>
+    </form>
+</section>
+
+</main>
+<footer>
+    <h2>Contact Info</h2>
+    <ul>
+        <li><address>clevelandplonsey@gmail.com</address>
+        </li>
+        <li>
+            Author: Cleveland Plonsey
+        </li>
+    </ul>
+</footer> 
+</body>
+</html>
